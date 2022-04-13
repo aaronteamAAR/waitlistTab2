@@ -1,0 +1,121 @@
+html {
+  font-family: 'Sora', sans-serif;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+
+header{
+  position: absolute;
+	font-weight: 800;
+	font-size: 30px;
+  margin-left: 10px;
+  margin-top: 0.9em;
+}
+
+p{
+	font-weight: 500;
+}
+button{
+  background-color: rgb(60, 222, 130);
+  margin: 0px 0px 0px 10px;
+  font-family: 'Sora',sans-serif;
+  font-weight: 600;
+  color: black;
+  border: 1px solid rgb(60, 222, 130);
+  height: 30px;
+  width: 7rem;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+b{
+  color: limegreen;
+}
+
+#inmid{
+  height: 30px;
+  width: 200px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+}
+#tutor__nav{
+  text-decoration: none;
+  color: white;
+
+}
+
+#s-logo{
+  position: absolute;
+  margin-top: -90px;
+  margin-left: -40px;
+  height: 150px;
+  width: 0px;
+}
+
+#nerdguy__img{
+  position: absolute;
+  margin-left: 20em;
+  margin-top:1.3em ;
+}
+#pmiddle{
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 11em;
+}
+
+
+#twitter__logo{
+  margin-left: 45em;
+  margin-top: 40em;
+}
+
+#line{
+  position: absolute;
+	width: 230px;
+	margin-top: 1em;
+	margin-left: -6vw;
+	transform: rotate(190deg);
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(60, 222, 130);
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px ;
+  background-attachment: fixed;
+  height: auto;
+  width: 100%;
+  margin-top: -8px;
+  box-shadow: 2px 12px 5px -2px rgba(207,198,198,0.73);
+-webkit-box-shadow: 2px 12px 5px -2px rgba(207,198,198,0.73);
+-moz-box-shadow: 2px 12px 5px -2px rgba(207,198,198,0.73);
+}
+.waitlist__main{
+  text-align: justify;
+  margin-top: 8.5em;
+  margin-right: 10em;
+}
+
+
+.navlist > .tutor {
+  font-size: small;
+  list-style-type: none;
+  background-color: black;
+  border-radius: 8px;
+  margin: 30px;
+  padding: 10px;
+}
+.inputs__get{
+  position: absolute;
+  margin-top: 17em;
+}
+
+
+
