@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" media="screen and (min-width: 800px) and (max-width: 1280px)" type="text/css" href="style.css">
 	 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Sora:wght@300;600;700;800&display=swap" rel="stylesheet">
@@ -29,7 +29,7 @@
     </div>
 	<div class="waitlist__main">
             <header id="headermiddle">Making Learning<br>
-             much more<br><b id="line__word">simple</b></header>
+             much more&nbsp;<span class="auto-type"></span></header>
              <img id="line" src="./images/linegrasp.png">
                <p id="pmiddle">Grasp is a educational learning technology<br> platform that teaches advances<br>to anyone willing to learn.</p>
        <div class="inputs__get">
@@ -37,5 +37,16 @@
        </div>
 </div>
 <footer><img id="twitter__logo" src="./images/grasptwitterb.png"></footer>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+
+  let autotype = new Typed(".auto-type",{
+    strings: ["easy", "simple"],
+    typeSpeed: 150,
+    backSpeed: 150,
+    loop: true
+  })
+</script>
     </body>
 </html>

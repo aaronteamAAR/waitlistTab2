@@ -70,7 +70,17 @@ b{
   margin-top: 11em;
 }
 
+#btnmid{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: width 0.4s;
+    transition-timing-function: linear;
 
+  }
+  #btnmid:hover{
+    width: 150px;
+    
+  }
+  
 #twitter__logo{
   margin-left: 45em;
   margin-top: 40em;
@@ -79,8 +89,8 @@ b{
 #line{
   position: absolute;
 	width: 230px;
-	margin-top: 1em;
-	margin-left: -6vw;
+	margin-top: -1em;
+	margin-left: 16vw;
 	transform: rotate(190deg);
 }
 .nav-container {
